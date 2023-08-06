@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator__grid">
+        <div class="result">
+            <div data-previous-operand class="history"></div>
+            <div data-current-operand class="output">0.</div>
+        </div>
+        <button class="clear" data-all-clear>C</button>
+        <button class="operator" data-delete>DEL</button>
+        <button class="operator" data-operation>%</button>
+        <button class="operator" data-operation>/</button>
+        <button class="number" data-number>1</button>
+        <button class="number" data-number>2</button>
+        <button class="number" data-number>3</button>
+        <button class="operator" data-operation>*</button>
+        <button class="number" data-number>4</button>
+        <button class="number" data-number>5</button>
+        <button class="number" data-number>6</button>
+        <button class="operator" data-operation>+</button>
+        <button class="number" data-number>7</button>
+        <button class="number" data-number>8</button>
+        <button class="number" data-number>9</button>
+        <button class="operator" data-operation>-</button>
+        <button class="number" data-number>.</button>
+        <button class="number" data-number>0</button>
+        <button class="empty"></button>
+        <button class="operator" data-equals>=</button>
+    </div>
+</body>
+  <script src="javascript/app.js" defer></script>
+</html>
